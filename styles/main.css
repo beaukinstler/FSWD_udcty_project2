@@ -65,7 +65,7 @@ img, video,embed,object {
 
 }
 img {
-    max-height: 250px;
+    max-height: 400px;
 }
 
 
@@ -112,7 +112,7 @@ header {
 .wrap {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 900px;
+	max-width: 1100px;
 }
 
 
