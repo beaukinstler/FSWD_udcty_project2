@@ -117,7 +117,7 @@
 
 
     .primary_article {
-        
+
         background: rgba(58, 59, 58, 0.3);
         background-image: url(../images/main-light.png);
     }
@@ -128,12 +128,12 @@
     }
 
     .over-pic {
-        background: rgba(183, 190, 183, 0.8); 
-        padding: .5em;  
+        background: rgba(183, 190, 183, 0.8);
+        padding: .5em;
     }
 
 
-    .center img {        
+    .center img {
         display:block;
         margin-left:auto;
         margin-right:auto;
