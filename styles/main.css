@@ -8,7 +8,7 @@
         height: 100%;
         font-family: 'Proza Libre', sans-serif;
         font-size: 12px;
-        color: #02b3e4;
+        /* color: #02b3e4; */
     }
 
     h1 {
@@ -17,7 +17,7 @@
         display: inline-block;
         /* align-self: right; */
         float: right;
-        color: #2d3c49;
+        /* color: #2d3c49; */
     }
 
     h2 {
@@ -28,7 +28,6 @@
         float: right;
         display: inline-block;
         clear: right;
-        color: #2d3c49;
         font-size: 20px;
     }
 
@@ -73,7 +72,7 @@
         box-shadow: 0 2px 5px #2d3c49;
         min-height: 2.5em;
         transition: min-height 0.3s;
-        background-color: #7d97ad;
+        /* background-color: #7d97ad; */
     }
 
     .sample {
@@ -95,18 +94,47 @@
         /* max-height: 10px; */
     }
 
+
     /* Color pallet */
 
     .primary_color {
-        color: #02b3e4;
+        color: #9da5a7;
     }
+    .primary_color a, .primary_color a:visited {
+        color: #9da5a7;
+        background-color: hotpink;
+        text-decoration: none;
+    }
+
 
     .secondary_color {
-        color: #2d3c49;
+        color: #273e50;        
     }
 
-    .third_color{
-        color: #7d97ad;
+
+    .secondary_color a, .secondary_color a:visited {
+        color: #273e50;
+        text-decoration: none; 
+        font-weight: bold;
+    }
+
+
+    .third_color {
+        color: #b9843f;
+    }
+
+    .third_color a, .third_color a:visited {
+        color: #ebba40;
+        text-decoration: none; 
+        font-weight: unset;
+    }
+
+    .medium_dark_background {
+        background-color: #7d97ad;
+    }
+
+    .dark_background {
+        background-color: #081f31; 
     }
 
     .wrap {
@@ -114,7 +142,6 @@
         margin-right: auto;
         max-width: 1100px;
     }
-
 
     .primary_article {
 
@@ -138,3 +165,12 @@
         margin-left:auto;
         margin-right:auto;
     }
+
+    footer {
+        text-align: right;
+    }
+
+    footer a {
+        font-size: 1em;
+    }
+
