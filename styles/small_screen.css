@@ -1,22 +1,27 @@
 .container{
     display: block;
 }
+
 .sample {
     width: 100%;
     padding:0px;
     padding-top: 5px;
 }
+
 img {
     max-width: 250px;
 }
+
 body {
     text-align: center;
     min-width: 317px;
     box-sizing: border-box;
 }
+
 h1 {
     font-size: 32px;
 }
+
 #logo {
     max-height: 6em;
 }
@@ -24,6 +29,7 @@ h1 {
 .tagline {
     font-size: 1.1em;
 }
+
 .article_text {
     text-align: left;
 }
@@ -32,4 +38,3 @@ footer {
     font-size: 1.2em;
     text-align: center;
 }
-

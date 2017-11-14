@@ -7,12 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
         <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" media="screen and (max-width: 500px)" href="styles/small_screen.css"/>
-        <link rel="stylesheet" media="screen and (max-width: 1100px)" href="styles/large_screen.css"/>
     </head>
     <body class="secondary_color wrap">
         <header class="clearfix medium_dark_background">
-            <img id="logo" class="left" src="images/logo.png" alt="Site logo">
+            <img class="left logo" src="images/logo.png" alt="Site logo">
             <h1>Beau Kinstler</h1>
             <div class="tagline">Builder of binary abstractions</div>
         </header>
@@ -41,7 +39,11 @@
             <h2 class="secondary_color">Featured Work</h2>
             <div class="secondary_color container">
                 <div class="sample">
-                    <img src="images/sample_1.png" alt="Sample work one thumbnail">
+                    <picture>
+                        <source media="(min-width: 10px) and (max-width: 500px)" srcset="images/sample_1.png">
+                        <source media="(min-width: 500px)" srcset="images/sample_1-2x.png">
+                        <img src="images/sample_10.png" alt="Sample work one thumbnail">
+                    </picture>
                     <div class="link_to_work">
                         <a href="#">link to work</a>
                     </div>
@@ -61,7 +63,7 @@
             </div>
         </section>
         <footer class="third_color dark_background">
-            Follow me on <a href="https://twitter.com/beaukinstler">Twitter</a>! 
+            Follow me on <a href="https://twitter.com/beaukinstler">Twitter</a>!
         </footer>
     </body>
 </html>
